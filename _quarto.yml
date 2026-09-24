@@ -1,0 +1,64 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: ""
+  favicon: "plot/viserdac-logo.png"
+  
+  repo-url: https://github.com/vsu-viserdac/r-programming-data-viz-analysis
+  site-url: https://vsu-viserdac.github.io/impact-assessment/
+  
+  sidebar:
+    style: docked
+    pinned: true
+    search: true
+    tools:
+      - icon: facebook
+        href: https://www.facebook.com/viserdac/
+      - icon: globe
+        href: https://viserdac.vsu.edu.ph/
+      - icon: github
+        href: https://github.com/vsu-viserdac/impact-assessment
+    
+    contents:
+      - href: "index.qmd"
+        text: "**Home**"
+      - href: "pre-assess.qmd"
+        text: "**Pre-assessment**"
+      - href: "post-assess.qmd"
+        text: "**Post-assessment**"
+      - href: "resources.qmd"
+        text: "**Resources**"
+      - section: "**Day 1 sessions**"
+        contents:
+          - href: ""
+            text: "Lecture 1: Introduction to Impact Assessment"
+
+      
+      - section: "**Day 2 sessions**"
+        contents:
+          - href: ""
+            text: "Lecture 4: Introduction to Stata/R software"
+            
+      
+      - section: "**Day 3 sessions**"
+        contents:
+          - href: ""
+            text: "Lecture 7: Impact estimation using PSM"
+
+      
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [cosmo, dark-style.scss]
+    mainfont: "Arial"
+    code-copy: true
+    code-overflow: wrap
+    toc: false
+
+freeze: auto
+editor: visual
+
