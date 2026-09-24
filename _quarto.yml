@@ -14,6 +14,7 @@ website:
     style: docked
     pinned: true
     search: true
+    logo: "plot/viserdac-logo.png"
     tools:
       - icon: facebook
         href: https://www.facebook.com/viserdac/
