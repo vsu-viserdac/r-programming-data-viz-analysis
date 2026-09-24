@@ -25,28 +25,42 @@ website:
     contents:
       - href: "index.qmd"
         text: "**Home**"
-      - href: "pre-assess.qmd"
-        text: "**Pre-assessment**"
-      - href: "post-assess.qmd"
-        text: "**Post-assessment**"
       - href: "resources.qmd"
         text: "**Resources**"
       - section: "**Day 1 sessions**"
         contents:
           - href: ""
-            text: "Lecture 1: Introduction to Impact Assessment"
+            text: "Getting started with R"
+          - href: ""
+            text: "Workshop 1: Setting up and importing data"
+          - href: ""
+            text: "Data wrangling with Tidyverse"
+          - href: ""
+            text: "Workshop 2: Cleaning and structuring data"
 
       
       - section: "**Day 2 sessions**"
         contents:
           - href: ""
-            text: "Lecture 4: Introduction to Stata/R software"
+            text: "Introduction to Data Visualization with ggplot2"
+          - href: ""
+            text: "Workshop 3: Visualizing research data"
+          - href: ""
+            text: "Introduction to Data analysis with R"
+          - href: ""
+            text: "Workshop 4: Testing hypotheses in R"
             
       
       - section: "**Day 3 sessions**"
         contents:
           - href: ""
-            text: "Lecture 7: Impact estimation using PSM"
+            text: "Introduction to Regression Analysis"
+          - href: ""
+            text: "Workshop 5: Building and checking regression models"
+          - href: ""
+            text: "Building Reproducible Data Analysis Reports in Quarto"
+          - href: ""
+            text: "Workshop 6: Generating an HTML report"
 
       
 format:
