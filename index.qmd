@@ -2,7 +2,7 @@
 title: ""
 ---
 
-![](plot/ie-header.png){fig-align="center"}
+![](plot/r-training-header.png){fig-align="center"}
 
 <br>
 
