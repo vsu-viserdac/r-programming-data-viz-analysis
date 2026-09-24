@@ -1,15 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://vsu-viserdac.github.io/impact-assessment/index.html</loc>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/session-6-reproducible-report.html</loc>
+    <lastmod>2026-09-24T14:40:56.850Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/session-4-intro-data-analysis.html</loc>
+    <lastmod>2026-09-24T14:38:27.991Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/session-2-data-wrangling.html</loc>
+    <lastmod>2026-09-24T14:35:27.391Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/index.html</loc>
     <lastmod>2026-09-24T14:23:38.998Z</lastmod>
   </url>
   <url>
-    <loc>https://vsu-viserdac.github.io/impact-assessment/about.html</loc>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/about.html</loc>
     <lastmod>2026-09-24T13:21:34.485Z</lastmod>
   </url>
   <url>
-    <loc>https://vsu-viserdac.github.io/impact-assessment/contact.html</loc>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/contact.html</loc>
     <lastmod>2026-09-24T13:21:34.503Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/session-1-getting-started-r.html</loc>
+    <lastmod>2026-09-24T14:46:58.680Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/session-3-intro-data-viz.html</loc>
+    <lastmod>2026-09-24T14:37:14.473Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/session-5-intro-regression-analysis.html</loc>
+    <lastmod>2026-09-24T14:39:21.904Z</lastmod>
   </url>
 </urlset>

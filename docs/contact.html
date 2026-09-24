@@ -102,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
         <div class="sidebar-tools-collapse tools-wide">
     <a href="https://www.facebook.com/viserdac/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-facebook"></i></a>
     <a href="https://viserdac.vsu.edu.ph/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-globe"></i></a>
-    <a href="https://github.com/vsu-viserdac/impact-assessment" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://github.com/vsu-viserdac/r-programming-data-viz-analysis" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     <div class="sidebar-menu-container"> 
@@ -129,14 +129,20 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
- <span class="menu-text">Getting started with R</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./session-1-getting-started-r.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Getting started with R</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
  <span class="menu-text">Workshop 1: Setting up and importing data</span>
   </li>
           <li class="sidebar-item">
- <span class="menu-text">Data wrangling with Tidyverse</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./session-2-data-wrangling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data wrangling with Tidyverse</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
  <span class="menu-text">Workshop 2: Cleaning and structuring data</span>
   </li>
@@ -152,14 +158,20 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
- <span class="menu-text">Introduction to Data Visualization with ggplot2</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./session-3-intro-data-viz.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction to Data Visualization with ggplot2</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
  <span class="menu-text">Workshop 3: Visualizing research data</span>
   </li>
           <li class="sidebar-item">
- <span class="menu-text">Introduction to Data analysis with R</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./session-4-intro-data-analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction to Data analysis with R</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
  <span class="menu-text">Workshop 4: Testing hypotheses in R</span>
   </li>
@@ -175,14 +187,20 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
- <span class="menu-text">Introduction to Regression Analysis</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./session-5-intro-regression-analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction to Regression Analysis</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
  <span class="menu-text">Workshop 5: Building and checking regression models</span>
   </li>
           <li class="sidebar-item">
- <span class="menu-text">Building Reproducible Data Analysis Reports in Quarto</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./session-6-reproducible-report.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Building Reproducible Data Analysis Reports in Quarto</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
  <span class="menu-text">Workshop 6: Generating an HTML report</span>
   </li>
@@ -452,7 +470,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/vsu-viserdac\.github\.io\/impact-assessment\/");
+      var filterRegex = new RegExp("https:\/\/vsu-viserdac\.github\.io\/r-programming-data-viz-analysis\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

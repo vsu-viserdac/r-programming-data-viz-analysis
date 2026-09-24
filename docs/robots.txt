@@ -1,1 +1,1 @@
-Sitemap: https://vsu-viserdac.github.io/impact-assessment/sitemap.xml
+Sitemap: https://vsu-viserdac.github.io/r-programming-data-viz-analysis/sitemap.xml
