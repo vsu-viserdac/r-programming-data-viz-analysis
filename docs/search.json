@@ -1,10 +1,21 @@
 [
   {
+    "objectID": "session-6-reproducible-report.html",
+    "href": "session-6-reproducible-report.html",
+    "title": "Building Reproducible Analysis Reports in Quarto",
+    "section": "",
+    "text": "View slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "**Day 3 sessions**",
+      "Building Reproducible Data Analysis Reports in Quarto"
+    ]
+  },
+  {
     "objectID": "session-4-intro-data-analysis.html",
     "href": "session-4-intro-data-analysis.html",
     "title": "Session 4: Introduction to Data Analysis with R",
     "section": "",
-    "text": "View slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "text": "Introduction to hypothesis testing\nParametric vs non-parametric tests\nIndependent sample t-test\nPaired sample t-test\nOne-way ANOVA\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
     "crumbs": [
       "**Day 2 sessions**",
       "Introduction to Data analysis with R"
@@ -15,7 +26,7 @@
     "href": "session-2-data-wrangling.html",
     "title": "Session 2: Data wrangling with Tidyverse",
     "section": "",
-    "text": "What is R?\nInstalling R and RStudio\nR objects\nPackages and help pages\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "text": "Introduction to Tidyverse\nBasic data wrangling with dplyr\nData reshaping\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
     "crumbs": [
       "**Day 1 sessions**",
       "Data wrangling with Tidyverse"
@@ -55,6 +66,17 @@
     "crumbs": [
       "**Day 2 sessions**",
       "Introduction to Data Visualization with ggplot2"
+    ]
+  },
+  {
+    "objectID": "session-5-intro-regression-analysis.html",
+    "href": "session-5-intro-regression-analysis.html",
+    "title": "Session 5: Introduction to Regression Analysis with R",
+    "section": "",
+    "text": "View slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "**Day 3 sessions**",
+      "Introduction to Regression Analysis"
     ]
   }
 ]

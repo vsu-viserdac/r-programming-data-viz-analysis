@@ -1,3 +1,31 @@
 ---
 title: "Session 5: Introduction to Regression Analysis with R"
 ---
+
+1. 
+
+<a href="https://vsu-viserdac.github.io/training-presentation/s5-regression-analysis" target="_blank" class="btn-slides">View slides in new window</a>
+
+::: {.box style="padding-bottom:56.25%; position:relative; display:block; width: 100%"}
+<iframe width="100%" height="100%" src="https://vsu-viserdac.github.io/training-presentation/s5-regression-analysis" frameborder="0" allowfullscreen style="position:absolute; top:0; left: 0">
+
+</iframe>
+:::
+
+:::: callout-tip
+## Presentation keyboard shortcuts
+
+::: text-line-space
+<ul>
+
+<li>Use <kbd>←</kbd> and <kbd>→</kbd> to navigate through the slides</li>
+
+<li>Use <kbd>F</kbd> to toggle full screen</li>
+
+<li>Use <kbd>O</kbd> to view an overview of all slides</li>
+
+<li>Use <kbd>?</kbd> to see a list of other shortcuts</li>
+
+</ul>
+:::
+::::
