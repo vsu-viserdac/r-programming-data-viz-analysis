@@ -1,5 +1,27 @@
 [
   {
+    "objectID": "session-4-intro-data-analysis.html",
+    "href": "session-4-intro-data-analysis.html",
+    "title": "Session 4: Introduction to Data Analysis with R",
+    "section": "",
+    "text": "View slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "**Day 2 sessions**",
+      "Introduction to Data analysis with R"
+    ]
+  },
+  {
+    "objectID": "session-2-data-wrangling.html",
+    "href": "session-2-data-wrangling.html",
+    "title": "Session 2: Data wrangling with Tidyverse",
+    "section": "",
+    "text": "What is R?\nInstalling R and RStudio\nR objects\nPackages and help pages\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "**Day 1 sessions**",
+      "Data wrangling with Tidyverse"
+    ]
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -12,5 +34,27 @@
     "title": "",
     "section": "",
     "text": "Visayas Socio-Economic Research and Data Analytics Center (ViSERDAC)\n1/F Department of Economics, Visayas State University\nVisca, Baybay City, Leyte, 6521, Philippines\n☎️ Phone: (053) 563 – 7751\n📧 Email: viserdac@vsu.edu.ph\n🌐 Website: viserdac.vsu.edu.ph\n🔵 Facebook: facebook.com/viserdac\nFor inquiries, collaborations, or access to technical support, feel free to reach out.\nWe’re here to support research sectors across the Visayas region."
+  },
+  {
+    "objectID": "session-1-getting-started-r.html",
+    "href": "session-1-getting-started-r.html",
+    "title": "Session 1: Getting Started with R",
+    "section": "",
+    "text": "What is R?\nInstalling R and RStudio\nR objects\nPackages and help pages\nImporting data\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "**Day 1 sessions**",
+      "Getting started with R"
+    ]
+  },
+  {
+    "objectID": "session-3-intro-data-viz.html",
+    "href": "session-3-intro-data-viz.html",
+    "title": "Session 3: Introduction to Data Visualization with ggplot2",
+    "section": "",
+    "text": "The grammar of graphics\nDataset and mapping\nGeometries\nStatistical transformations\nPosition adjustment and scales\nCoordinates and themes\nFacets and custom plots\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "**Day 2 sessions**",
+      "Introduction to Data Visualization with ggplot2"
+    ]
   }
 ]
