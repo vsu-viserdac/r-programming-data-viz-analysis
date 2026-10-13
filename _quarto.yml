@@ -32,7 +32,7 @@ website:
         contents:
           - href: "session-1-getting-started-r.qmd"
             text: "Getting started with R"
-          - href: ""
+          - href: "w1-getting-started-r.qmd"
             text: "Workshop 1: Setting up and importing data"
           - href: "session-2-data-wrangling.qmd"
             text: "Data wrangling with Tidyverse"
