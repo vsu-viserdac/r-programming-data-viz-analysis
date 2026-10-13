@@ -46,7 +46,7 @@ website:
             text: "Introduction to Data Visualization with ggplot2"
           - href: ""
             text: "Workshop 3: Visualizing research data"
-          - href: "session-4-intro-data-analysis.qmd"
+          - href: ""
             text: "Introduction to Data analysis with R"
           - href: ""
             text: "Workshop 4: Testing hypotheses in R"
