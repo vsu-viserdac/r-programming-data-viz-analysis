@@ -1,46 +1,67 @@
 [
   {
-    "objectID": "w1-getting-started-r.html#r-and-rstudio-installation",
-    "href": "w1-getting-started-r.html#r-and-rstudio-installation",
+    "objectID": "w2-data-wrangling.html",
+    "href": "w2-data-wrangling.html",
     "title": "",
-    "section": "1. R and RStudio Installation",
-    "text": "1. R and RStudio Installation\n1.1. Install R and RStudio on your computer.\n1.2. Download the entire R project folder serdac-r-workshop from the provided Google Drive link. Save the folder on your computer. This folder will serve as our working directory for the entire duration of the training.\n1.3. Inside the serdac-r-workshop folder, navigate to w1-getting-started-r. This folder contains the R script template and the datasets to be used for this workshop.",
-    "crumbs": [
-      "**Day 1 sessions**",
-      "Workshop 1: Setting up and importing data"
-    ]
-  },
-  {
-    "objectID": "w1-getting-started-r.html#r-packages",
-    "href": "w1-getting-started-r.html#r-packages",
-    "title": "",
-    "section": "2. R Packages",
-    "text": "2. R Packages\n2.1. Install the following R packages:\n- tidyverse\n- readxl\n- haven\n- janitor\n2.2. Load the installed packages using the library() function.",
-    "crumbs": [
-      "**Day 1 sessions**",
-      "Workshop 1: Setting up and importing data"
-    ]
-  },
-  {
-    "objectID": "w1-getting-started-r.html#importing-data",
-    "href": "w1-getting-started-r.html#importing-data",
-    "title": "",
-    "section": "3. Importing Data",
-    "text": "3. Importing Data\n3.1. Use the functions glimpse(), View(), and summary() to check the structure and contents of the imported datasets.\n3.2. Load the file swimming_pools.csv and the file potatoes.csv using both read_csv() and read.csv(). Compare the differences in the outputs.\n3.3. Load the Excel file urban_pop.xls using read_xls() or read_excel().\n3.4. Load the SPSS file HBAT.sav using read_sav().\n3.5. Load the online Stata dataset from http://www.stata-press.com/data/r9/auto.dta and save it into a variable named auto.",
-    "crumbs": [
-      "**Day 1 sessions**",
-      "Workshop 1: Setting up and importing data"
-    ]
-  },
-  {
-    "objectID": "session-5-intro-regression-analysis.html",
-    "href": "session-5-intro-regression-analysis.html",
-    "title": "Session 5: Introduction to Regression Analysis with R",
     "section": "",
-    "text": "View slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "text": "Set-up\n\nUsing the R project folder serdac-r-workshop, navigate to w2-data-wrangling. This folder contains the R script template to be used for this workshop.\nInstall the tidyverse and gapminder packages if you haven’t done so already.\nLoad the packages using the library() function.\n\n\n\n1. Basic Data Wrangling with Tidyverse\n\nUse the gapminder dataset from the gapminder package.\n\nCheck the data using the glimpse() and View() functions.\n\n\n\n1.1. filter()\n\nUsing the gapminder dataset, filter the data for the year 1957.\n\nFilter for Philippines in 2002.\n\nFilter for the year 1957, then arrange in descending order of population.\n\n\n\n1.2. mutate()\n\nUse mutate() to compute GDP (gdpPercap * pop).\n\nFilter for year 2007, compute GDP in millions, and arrange data by descending life expectancy.\n\n\n\n1.3. group_by() and summarize()\n\nSummarize to find the median life expectancy per country and arrange in descending order.\n\nFind median life expectancy and maximum GDP per capita in each year.\n\n\n\n2. Import the dataset s2-sample-data.xlsx\n\nSave the first sheet as fct_items and use the clean_names() function from janitor package to clean the column names.\nUsing pivot_longer(), reshape the factor items (ci_1 to ewb_10) into long format. Label the names as item and the values as value. Save the data as fct_items_long_fmt\n\n\n\n3. Import the dataset s2-sample-data.xlsx again, this time using the second sheet\n\nSave the second sheet as fct_label\nUsing left_join(), merge the two datasets (e.g., fct_items_long_fmt, fct_label)\n\n\n\nBONUS: Sample Visualization with Gapminder\n\nRun the provided code snippet and observe the output.\n\n\ngapminder |&gt; \n  filter(year == 2007) |&gt;  \n  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop)) +\n  geom_point(alpha = 0.8) +\n  scale_x_log10() +\n  scale_size(range = c(0.1, 20), name = \"Population\") +\n  labs(x = \"GDP per Capita\",\n       y = \"Life Expectancy (years)\",\n       title = \"World Development in 2007\") +\n  theme_light() +\n  theme(legend.position = \"none\")",
     "crumbs": [
-      "**Day 3 sessions**",
-      "Introduction to Regression Analysis"
+      "**Day 1 sessions**",
+      "Workshop 2: Data wrangling with Tidyverse"
+    ]
+  },
+  {
+    "objectID": "session-6-reproducible-report.html",
+    "href": "session-6-reproducible-report.html",
+    "title": "Building Reproducible Analysis Reports in Quarto",
+    "section": "",
+    "text": "View slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
+  },
+  {
+    "objectID": "session-4-intro-data-analysis.html",
+    "href": "session-4-intro-data-analysis.html",
+    "title": "Session 4: Introduction to Data Analysis with R",
+    "section": "",
+    "text": "Introduction to hypothesis testing\nParametric vs non-parametric tests\nIndependent sample t-test\nPaired sample t-test\nOne-way ANOVA\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "**Day 2 sessions**",
+      "Introduction to Data analysis with R"
+    ]
+  },
+  {
+    "objectID": "session-2-data-wrangling.html",
+    "href": "session-2-data-wrangling.html",
+    "title": "Session 2: Data wrangling with Tidyverse",
+    "section": "",
+    "text": "Introduction to Tidyverse\nBasic data wrangling with dplyr\nData reshaping\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "**Day 1 sessions**",
+      "Data wrangling with Tidyverse"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "",
+    "section": "",
+    "text": "Visayas Socio-Economic Research and Data Analytics Center (ViSERDAC)\n1/F Department of Economics, Visayas State University\nVisca, Baybay City, Leyte, 6521, Philippines\n☎️ Phone: (053) 563 – 7751\n📧 Email: viserdac@vsu.edu.ph\n🌐 Website: viserdac.vsu.edu.ph\n🔵 Facebook: facebook.com/viserdac\nFor inquiries, collaborations, or access to technical support, feel free to reach out.\nWe’re here to support research sectors across the Visayas region."
+  },
+  {
+    "objectID": "session-1-getting-started-r.html",
+    "href": "session-1-getting-started-r.html",
+    "title": "Session 1: Getting Started with R",
+    "section": "",
+    "text": "What is R?\nInstalling R and RStudio\nR objects\nPackages and help pages\nImporting data\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "**Day 1 sessions**",
+      "Getting started with R"
     ]
   },
   {
@@ -55,62 +76,11 @@
     ]
   },
   {
-    "objectID": "session-1-getting-started-r.html",
-    "href": "session-1-getting-started-r.html",
-    "title": "Session 1: Getting Started with R",
+    "objectID": "session-5-intro-regression-analysis.html",
+    "href": "session-5-intro-regression-analysis.html",
+    "title": "Session 5: Introduction to Regression Analysis with R",
     "section": "",
-    "text": "What is R?\nInstalling R and RStudio\nR objects\nPackages and help pages\nImporting data\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
-    "crumbs": [
-      "**Day 1 sessions**",
-      "Getting started with R"
-    ]
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "",
-    "section": "",
-    "text": "Visayas Socio-Economic Research and Data Analytics Center (ViSERDAC)\n1/F Department of Economics, Visayas State University\nVisca, Baybay City, Leyte, 6521, Philippines\n☎️ Phone: (053) 563 – 7751\n📧 Email: viserdac@vsu.edu.ph\n🌐 Website: viserdac.vsu.edu.ph\n🔵 Facebook: facebook.com/viserdac\nFor inquiries, collaborations, or access to technical support, feel free to reach out.\nWe’re here to support research sectors across the Visayas region."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "session-2-data-wrangling.html",
-    "href": "session-2-data-wrangling.html",
-    "title": "Session 2: Data wrangling with Tidyverse",
-    "section": "",
-    "text": "Introduction to Tidyverse\nBasic data wrangling with dplyr\nData reshaping\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
-    "crumbs": [
-      "**Day 1 sessions**",
-      "Data wrangling with Tidyverse"
-    ]
-  },
-  {
-    "objectID": "session-4-intro-data-analysis.html",
-    "href": "session-4-intro-data-analysis.html",
-    "title": "Session 4: Introduction to Data Analysis with R",
-    "section": "",
-    "text": "Introduction to hypothesis testing\nParametric vs non-parametric tests\nIndependent sample t-test\nPaired sample t-test\nOne-way ANOVA\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
-    "crumbs": [
-      "**Day 2 sessions**",
-      "Introduction to Data analysis with R"
-    ]
-  },
-  {
-    "objectID": "session-6-reproducible-report.html",
-    "href": "session-6-reproducible-report.html",
-    "title": "Building Reproducible Analysis Reports in Quarto",
-    "section": "",
-    "text": "View slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
-    "crumbs": [
-      "**Day 3 sessions**",
-      "Building Reproducible Data Analysis Reports in Quarto"
-    ]
+    "text": "View slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
   },
   {
     "objectID": "w1-getting-started-r.html",

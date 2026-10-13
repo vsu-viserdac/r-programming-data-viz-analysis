@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/w1-getting-started-r.html</loc>
-    <lastmod>2026-10-13T02:05:49.017Z</lastmod>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/w2-data-wrangling.html</loc>
+    <lastmod>2026-10-13T20:58:42.765Z</lastmod>
   </url>
   <url>
-    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/session-5-intro-regression-analysis.html</loc>
-    <lastmod>2026-10-12T20:57:12.307Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/session-3-intro-data-viz.html</loc>
-    <lastmod>2026-10-12T20:24:38.007Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/session-1-getting-started-r.html</loc>
-    <lastmod>2026-10-13T01:43:22.446Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/contact.html</loc>
-    <lastmod>2026-09-24T13:21:34.503Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/about.html</loc>
-    <lastmod>2026-09-24T13:21:34.485Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/index.html</loc>
-    <lastmod>2026-10-13T01:54:33.031Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/session-2-data-wrangling.html</loc>
-    <lastmod>2026-10-12T20:13:58.892Z</lastmod>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/session-6-reproducible-report.html</loc>
+    <lastmod>2026-10-12T20:51:02.325Z</lastmod>
   </url>
   <url>
     <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/session-4-intro-data-analysis.html</loc>
     <lastmod>2026-10-12T20:21:06.034Z</lastmod>
   </url>
   <url>
-    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/session-6-reproducible-report.html</loc>
-    <lastmod>2026-10-12T20:51:02.325Z</lastmod>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/session-2-data-wrangling.html</loc>
+    <lastmod>2026-10-12T20:13:58.892Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/index.html</loc>
+    <lastmod>2026-10-13T20:08:47.145Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/about.html</loc>
+    <lastmod>2026-09-24T13:21:34.485Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/contact.html</loc>
+    <lastmod>2026-09-24T13:21:34.503Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/session-1-getting-started-r.html</loc>
+    <lastmod>2026-10-13T01:43:22.446Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/session-3-intro-data-viz.html</loc>
+    <lastmod>2026-10-12T20:24:38.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/session-5-intro-regression-analysis.html</loc>
+    <lastmod>2026-10-12T20:57:12.307Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vsu-viserdac.github.io/r-programming-data-viz-analysis/w1-getting-started-r.html</loc>
+    <lastmod>2026-10-13T20:58:30.624Z</lastmod>
   </url>
 </urlset>

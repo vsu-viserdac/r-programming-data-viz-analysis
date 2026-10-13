@@ -36,8 +36,8 @@ website:
             text: "Workshop 1: Setting up and importing data"
           - href: "session-2-data-wrangling.qmd"
             text: "Data wrangling with Tidyverse"
-          - href: ""
-            text: "Workshop 2: Cleaning and structuring data"
+          - href: "w2-data-wrangling.qmd"
+            text: "Workshop 2: Data wrangling with Tidyverse"
 
       
       - section: "**Day 2 sessions**"
@@ -54,11 +54,11 @@ website:
       
       - section: "**Day 3 sessions**"
         contents:
-          - href: "session-5-intro-regression-analysis.qmd"
+          - href: ""
             text: "Introduction to Regression Analysis"
           - href: ""
             text: "Workshop 5: Building and checking regression models"
-          - href: "session-6-reproducible-report.qmd"
+          - href: ""
             text: "Building Reproducible Data Analysis Reports in Quarto"
           - href: ""
             text: "Workshop 6: Generating an HTML report"

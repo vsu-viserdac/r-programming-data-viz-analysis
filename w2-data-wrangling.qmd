@@ -1,0 +1,62 @@
+---
+title: ""
+---
+
+![](plot/session-2-workshop.png){fig-align="center"}
+
+
+### Set-up
+- Using the R project folder `serdac-r-workshop`, navigate to **w2-data-wrangling**. This folder contains the **R script template** to be used for this workshop.
+- Install the **tidyverse** and **gapminder** packages if you haven't done so already.
+- Load the packages using the `library()` function.
+
+### 1. Basic Data Wrangling with Tidyverse
+- Use the `gapminder` dataset from the **gapminder** package.  
+- Check the data using the `glimpse()` and `View()` functions.  
+
+
+### 1.1. `filter()` 
+- Using the `gapminder` dataset, filter the data for the year **1957**.  
+- Filter for **Philippines in 2002**.  
+- Filter for the year **1957**, then arrange in descending order of population.  
+
+
+
+### 1.2. `mutate()` 
+- Use `mutate()` to compute GDP (`gdpPercap * pop`).  
+- Filter for year **2007**, compute GDP in millions, and arrange data by descending life expectancy.  
+
+
+### 1.3. `group_by()` and `summarize()`
+
+- Summarize to find the **median life expectancy per country** and arrange in descending order.  
+- Find **median life expectancy** and **maximum GDP per capita** in each year.  
+
+
+### 2. Import the dataset `s2-sample-data.xlsx`
+- Save the first sheet as `fct_items` and use the `clean_names()` function from **janitor** package to clean the column names.
+- Using `pivot_longer()`, reshape the factor items (ci_1 to ewb_10) into long format. Label the names as `item` and the values as `value`. Save the data as `fct_items_long_fmt`
+
+
+### 3. Import the dataset `s2-sample-data.xlsx` again, this time using the second sheet
+- Save the second sheet as `fct_label`
+- Using `left_join()`, merge the two datasets (e.g., `fct_items_long_fmt`, `fct_label`)
+
+
+### BONUS: Sample Visualization with Gapminder
+- Run the provided code snippet and observe the output.  
+
+```{r}
+#| eval: false
+gapminder |> 
+  filter(year == 2007) |>  
+  ggplot(aes(x = gdpPercap, y = lifeExp, color = continent, size = pop)) +
+  geom_point(alpha = 0.8) +
+  scale_x_log10() +
+  scale_size(range = c(0.1, 20), name = "Population") +
+  labs(x = "GDP per Capita",
+       y = "Life Expectancy (years)",
+       title = "World Development in 2007") +
+  theme_light() +
+  theme(legend.position = "none")
+```

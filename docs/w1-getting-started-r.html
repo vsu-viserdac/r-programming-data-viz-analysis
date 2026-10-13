@@ -154,8 +154,11 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
           <li class="sidebar-item">
- <span class="menu-text">Workshop 2: Cleaning and structuring data</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./w2-data-wrangling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Workshop 2: Data wrangling with Tidyverse</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -197,20 +200,14 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./session-5-intro-regression-analysis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction to Regression Analysis</span></a>
-  </div>
-</li>
+ <span class="menu-text">Introduction to Regression Analysis</span>
+  </li>
           <li class="sidebar-item">
  <span class="menu-text">Workshop 5: Building and checking regression models</span>
   </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./session-6-reproducible-report.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Building Reproducible Data Analysis Reports in Quarto</span></a>
-  </div>
-</li>
+ <span class="menu-text">Building Reproducible Data Analysis Reports in Quarto</span>
+  </li>
           <li class="sidebar-item">
  <span class="menu-text">Workshop 6: Generating an HTML report</span>
   </li>
@@ -235,8 +232,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="r-and-rstudio-installation" class="level3">
 <h3 class="anchored" data-anchor-id="r-and-rstudio-installation">1. R and RStudio Installation</h3>
-<p>1.1. Install <strong>R</strong> and <strong>RStudio</strong> on your computer.</p>
-<p>1.2. Download the entire <strong>R project folder</strong> <code>serdac-r-workshop</code> from the provided Google Drive link. Save the folder on your computer. This folder will serve as our <strong>working directory</strong> for the entire duration of the training.</p>
+<p>1.1. Install <a href="https://cran.r-project.org/bin/windows/base/">R</a> and <a href="https://posit.co/download/rstudio-desktop/">RStudio</a> on your computer.</p>
+<p>1.2. Download the entire <strong>R project folder</strong> <a href="https://drive.google.com/drive/folders/1Z1Efn4l0EUYC_8TakHDt_EIRJavRjCgf?usp=sharing">serdac-r-workshop</a> from the provided Google Drive link. Save the folder on your computer. This folder will serve as our <strong>working directory</strong> for the entire duration of the training.</p>
 <p>1.3. Inside the <code>serdac-r-workshop</code> folder, navigate to <strong>w1-getting-started-r</strong>. This folder contains the <strong>R script template</strong> and the <strong>datasets</strong> to be used for this workshop.</p>
 </section>
 <section id="r-packages" class="level3">
@@ -248,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
 <li><code>haven</code></li>
 <li><code>janitor</code></li>
 </ul>
-<p>2.2. Load the installed packages using the library() function.</p>
+<p>2.2. Load the installed packages using the <code>library()</code> function.</p>
 </section>
 <section id="importing-data" class="level3">
 <h3 class="anchored" data-anchor-id="importing-data">3. Importing Data</h3>
@@ -256,7 +253,7 @@ ul.task-list li input[type="checkbox"] {
 <p>3.2. Load the file <code>swimming_pools.csv</code> and the file <code>potatoes.csv</code> using both <code>read_csv()</code> and <code>read.csv()</code>. Compare the differences in the outputs.</p>
 <p>3.3. Load the Excel file <code>urban_pop.xls</code> using <code>read_xls()</code> or <code>read_excel()</code>.</p>
 <p>3.4. Load the SPSS file <code>HBAT.sav</code> using <code>read_sav()</code>.</p>
-<p>3.5. Load the online Stata dataset from <a href="http://www.stata-press.com/data/r9/auto.dta">http://www.stata-press.com/data/r9/auto.dta</a> and save it into a variable named <code>auto</code>.</p>
+<p>3.5. Load the online Stata dataset from <a href="http://www.stata-press.com/data/r9/auto.dta" class="uri">http://www.stata-press.com/data/r9/auto.dta</a> and save it into a variable named <code>auto</code>.</p>
 
 
 </section>
