@@ -48,7 +48,7 @@ website:
             text: "Workshop 3: Visualizing research data"
           - href: "session-4-intro-data-analysis.qmd"
             text: "Introduction to Data analysis with R"
-          - href: ""
+          - href: "w4-statistical-analysis.qmd"
             text: "Workshop 4: Testing hypotheses in R"
             
       

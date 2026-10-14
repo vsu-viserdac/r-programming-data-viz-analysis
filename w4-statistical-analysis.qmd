@@ -1,0 +1,65 @@
+---
+title: ""
+---
+
+![](plot/session-4-workshop.png){fig-align="center"}
+
+### Set-up
+
+-   Download the [w4-statistical-analysis](https://drive.google.com/drive/folders/1f6tcrHKieFqKqGIwFzc5cO1Tc0GaBUxm?usp=sharing). This folder contains the **R script template** and datasets to be used for this workshop.
+
+### 1. Independent Samples t-test
+
+-   State the null and alternative hypotheses.\
+-   Specify the decision rule and significance level.\
+-   Check assumptions: normality and homogeneity of variance.\
+-   Compute the test statistic and p-value.\
+-   Write the conclusion and interpretation.\
+-   Create a visualization of the results.
+
+### 2. Mann-Whitney U-test
+
+-   State the null and alternative hypotheses.\
+-   Specify the decision rule and significance level.\
+-   Check assumptions: normality and homogeneity of variance.\
+-   Compute the test statistic and p-value.\
+-   Write the conclusion and interpretation.\
+-   Create a visualization of the results.
+
+### 3. Paired Samples t-test
+
+-   State the null and alternative hypotheses.\
+-   Specify the decision rule and significance level.\
+-   Check assumptions: normality and homogeneity of variance.\
+-   Compute the test statistic and p-value.\
+-   Write the conclusion and interpretation.\
+-   Create a visualization of the results.
+
+### 4. Wilcoxon Signed-Rank Test
+
+-   State the null and alternative hypotheses.\
+-   Specify the decision rule and significance level.\
+-   Check assumptions: normality and homogeneity of variance.\
+-   Compute the test statistic and p-value.\
+-   Write the conclusion and interpretation.\
+-   Create a visualization of the results.
+
+### 5. One-way ANOVA
+
+-   State the null and alternative hypotheses.\
+-   Specify the decision rule and significance level.\
+-   Check assumptions: normality and homogeneity of variance.\
+-   Compute the test statistic and p-value.\
+-   Perform a post-hoc test (Tukey HSD).\
+-   Write the conclusion and interpretation.\
+-   Create a visualization of the results.
+
+### 6. Kruskal-Wallis Test
+
+-   State the null and alternative hypotheses.\
+-   Specify the decision rule and significance level.\
+-   Check assumptions: normality and homogeneity of variance.\
+-   Compute the test statistic and p-value.\
+-   Perform post-hoc tests (Dunn’s test).\
+-   Write the conclusion and interpretation.\
+-   Create a visualization of the results.
