@@ -1,0 +1,47 @@
+---
+title: ""
+---
+
+![](plot/session-3-workshop.png){fig-align="center"}
+
+### Set-up
+- Using the R project folder `serdac-r-workshop`, create a new folder named **w3-data-viz**. Download the [w3-data-viz-exercise-template.R](https://drive.google.com/drive/folders/1huSJ-C645NOPGkc585d8xHa3I877JFQH?usp=sharing) file and save it in the **w3-data-viz** folder.
+- Install the `tidyverse`, `babynames`, and `tidyplots` package if you haven’t done so already.
+
+
+### 1. Line Plot
+- Using the US baby names dataset from the **babynames** package, select at least 3 baby names with the same gender.  
+- Create a line plot showing how the popularity (number of babies given each name) changes over time.  
+- Save the plot as an image file.
+
+
+### 2. Scatter Plot
+- Create a scatter plot using the **eu_countries** dataset from the **tidyplots** package.  
+- Plot country area against population.  
+- Add vertical and horizontal reference lines to highlight thresholds.  
+- Save the plot as an image file.
+
+
+### 3. Stacked Bar Plot
+- Using the **energy** dataset, create a stacked bar plot of energy sources across years (2008 onwards).  
+- Show the relative contribution of each energy source per year using normalized bars.  
+- Save the plot as an image file.
+
+
+### 4. Box Plot
+- Using the **study** dataset, create a boxplot with treatment on the x-axis and score on the y-axis.  
+- Include error bars, individual data points, and a minimal theme.  
+- Save the plot as an image file.
+
+
+### 5. Bar Plot
+- Create a bar plot of study scores grouped by treatment.  
+- Add mean bars with standard error bars.  
+- Overlay individual data points and include test asterisks to indicate statistical significance.  
+- Save the plot as an image file.
+
+
+### 6. Area Stack
+- Using the **energy_week** dataset, create an area stack plot of power across dates.  
+- Show how total power output changes over time, broken down by energy source.  
+- Save the plot as an image file.

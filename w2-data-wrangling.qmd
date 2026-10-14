@@ -2,7 +2,7 @@
 title: ""
 ---
 
-![](plot/session-2-workshop.png){fig-align="center"}
+![](plot/session-3-workshop.png){fig-align="center"}
 
 
 ### Set-up
