@@ -1,0 +1,39 @@
+---
+title: ""
+---
+
+![](plot/session-5-workshop.png){fig-align="center"}
+
+
+### Set-up
+- Download the [w5-regression-analysis](https://drive.google.com/drive/folders/1imTMVAJhEIKrcl_4oES8VUC7FeGcv51w?usp=sharing). This folder contains the **R script template** and datasets to be used for this workshop.
+- Install the **modelsummary** package if you haven’t done so already.
+- Load the required packages: `tidyverse`, `haven`, `readxl`, `janitor`, `gtsummary`, `report`, and `modelsummary`.
+
+
+### 1. Simple Linear Regression
+- Import the dataset `pie_sales.xlsx` and clean the column names.  
+- Run a descriptive analysis of the variables.  
+- Generate a quick data summary using the `datasummary_skim()` function.  
+- Regress **pie sales** on **price** and **advertising costs**.  
+- Run the summary of the regression model.  
+- Use the **modelsummary** package to generate a regression table.  
+
+
+
+### 2. Multiple Linear Regression
+- Import the dataset `prod_cacao.xlsx`.  
+- Run descriptive statistics and a quick data summary.  
+- Specify a regression function for **peak harvest** using inputs: seedling, labor, fertilizer, organic inputs, and herbicide/others.  
+- Estimate the regression model and run the summary.  
+- Generate a model summary table using **modelsummary**.  
+- Use the **report** package to generate an interpretation of the regression results.  
+
+
+### 3. Logistic Regression
+- Import the dataset `adoption.xlsx`.  
+- Run descriptive statistics and a quick data summary for the adoption variables.  
+- Fit a logistic regression model with **adoption** as the dependent variable and predictors: age, education, and cage area.  
+- Run the summary of the logistic regression model.  
+- Generate a regression table using **modelsummary**.  
+- Use the **report** package to generate an interpretation of the logistic regression results.  

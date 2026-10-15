@@ -54,9 +54,9 @@ website:
       
       - section: "**Day 3 sessions**"
         contents:
-          - href: ""
+          - href: "session-5-intro-regression-analysis.qmd"
             text: "Introduction to Regression Analysis"
-          - href: ""
+          - href: "w5-regression-analysis.qmd"
             text: "Workshop 5: Building and checking regression models"
           - href: ""
             text: "Building Reproducible Data Analysis Reports in Quarto"
