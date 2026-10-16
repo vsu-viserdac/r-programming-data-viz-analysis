@@ -2,7 +2,9 @@
 title: "Building Reproducible Analysis Reports in Quarto"
 ---
 
-1.  
+1. Introduction to Quarto
+2. Quarto document elements
+3. Generating report
 
 <a href="https://vsu-viserdac.github.io/training-presentation/s6-reproducible-report" target="_blank" class="btn-slides">View slides in new window</a>
 

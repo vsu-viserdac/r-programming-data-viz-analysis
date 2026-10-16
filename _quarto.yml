@@ -58,7 +58,7 @@ website:
             text: "Introduction to Regression Analysis"
           - href: "w5-regression-analysis.qmd"
             text: "Workshop 5: Building and checking regression models"
-          - href: ""
+          - href: "session-6-reproducible-report.qmd"
             text: "Building Reproducible Data Analysis Reports in Quarto"
           - href: ""
             text: "Workshop 6: Generating an HTML report"

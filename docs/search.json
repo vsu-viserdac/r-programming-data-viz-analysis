@@ -106,7 +106,11 @@
     "href": "session-6-reproducible-report.html",
     "title": "Building Reproducible Analysis Reports in Quarto",
     "section": "",
-    "text": "View slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
+    "text": "Introduction to Quarto\nQuarto document elements\nGenerating report\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "**Day 3 sessions**",
+      "Building Reproducible Data Analysis Reports in Quarto"
+    ]
   },
   {
     "objectID": "w2-data-wrangling.html",
